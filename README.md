@@ -1,5 +1,4 @@
 # Game Mario
----
 Proyek ini merupakan tugas yang diberikan sebagai bagian dari mata kuliah Grafika Komputer. Tujuan dari proyek ini adalah untuk menerapkan konsep dan teknik yang telah dipelajari selama perkuliahan, serta untuk mengembangkan keterampilan praktis dalam Grafika Komputer.
 
 ## Persyaratan
