@@ -32,6 +32,10 @@ public class MyWorld extends World
         return mainPlayer;
     }
     
+    public Counter getCounter() {
+        return counter;
+    }
+    
     public void act(){
         count++;
         spawnEnemy();
@@ -83,3 +87,4 @@ class Title extends Actor
         setImage(image);
     }
 }
+
