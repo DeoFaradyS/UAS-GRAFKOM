@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=
+comment1.target=Player()
+comment2.params=weapon\ superPower
+comment2.target=Player(Weapon,\ SuperPower)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ turnAround()
+comment5.params=
+comment5.target=void\ moveAround()
+comment6.params=
+comment6.target=void\ fireProjectile()
+comment7.params=
+comment7.target=void\ superPowerUsed()
+comment8.params=
+comment8.target=boolean\ hitByEnemy()
+numComments=9
