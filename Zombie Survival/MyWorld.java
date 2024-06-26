@@ -87,4 +87,3 @@ class Title extends Actor
         setImage(image);
     }
 }
-

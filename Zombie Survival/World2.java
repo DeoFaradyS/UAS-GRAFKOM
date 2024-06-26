@@ -18,6 +18,8 @@ public class World2 extends World
         // Create a new world with 1000x650 cells with a cell size of 1x1 pixels.
         super(1000, 650, 1);
         
+        Greenfoot.playSound("backsound.mp3");
+        
         mainPlayer = new Player();
         counter = new Counter();
         healthbar = new HealthBar();

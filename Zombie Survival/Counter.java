@@ -9,6 +9,7 @@ public class Counter extends Actor
     World world;
     static Counter instance; // Menambahkan instance statis untuk memastikan Counter tidak dibuat ulang
     boolean isTransitioning = false; // Menambahkan flag untuk menandai transisi dunia
+    GreenfootSound backgroundMusic = new GreenfootSound("backsound.mp3"); // Menambahkan objek GreenfootSound untuk musik latar
 
     public Counter(){
         if (instance == null) { // Hanya inisialisasi jika instance belum ada
@@ -16,6 +17,7 @@ public class Counter extends Actor
             worldLevel = 0; // Menginisialisasi worldLevel
             world = getWorld(); // Menginisialisasi field dunia
             setImage(new GreenfootImage("Score: " + score + "\n Cash: " + money + "\n Time: " + time/60, 40, Color.BLACK, new Color(0,0,0,0)));  
+            backgroundMusic.playLoop(); // Memainkan musik latar saat pertama kali diinisialisasi
             // System.out.println("Initial World Level: " + worldLevel);
         } else {
             worldLevel = instance.worldLevel; // Gunakan nilai worldLevel dari instance yang ada
@@ -45,6 +47,7 @@ public class Counter extends Actor
             world = new World2(); // Memperbarui field dunia
             Greenfoot.setWorld(world);
             resetStats();
+            resetMusic();
             
             // System.out.println("World Level after changing to World2: " + worldLevel);
             return; // Menghentikan eksekusi setelah kondisi terpenuhi
@@ -57,6 +60,7 @@ public class Counter extends Actor
             world = new World3(); // Memperbarui field dunia
             Greenfoot.setWorld(world);
             resetStats();
+            resetMusic();
             
             // System.out.println("World Level after changing to World3: " + worldLevel);
             return; // Menghentikan eksekusi setelah kondisi terpenuhi
@@ -74,5 +78,10 @@ public class Counter extends Actor
         time = 0;
         isTransitioning = false;
         // System.out.println("Stats reset: Score = " + score + ", Money = " + money + ", Time = " + time);
+    }
+    
+     private void resetMusic() {
+        backgroundMusic.stop(); // Menghentikan musik yang sedang diputar
+        backgroundMusic.playLoop(); // Memulai kembali musik dari awal
     }
 }

@@ -9,12 +9,16 @@ public class Enemy extends Actor
     
     Player player;
     Counter counter;
+    boolean hasPlayedSound = false; // Flag untuk memastikan suara hanya diputar sekali saat musuh pertama kali muncul
     
     public Enemy(Player mainPlayer, Counter counter){
         this.counter = counter;
         player = mainPlayer;
         setImage("skeleton-idle_16.png");
         getImage().scale(80,80);
+        
+        Greenfoot.playSound("zombie.MP3"); // Memainkan suara saat musuh pertama kali muncul
+        hasPlayedSound = true;
     }
     
     public void act()
