@@ -11,7 +11,7 @@ public class MyWorld extends World
     HealthBar healthbar = new HealthBar();
     Weapon weapon = new Weapon(counter);
     SuperPower superPower = new SuperPower();
-    Title title = new Title("Stage 1: Target 50");
+    Title title = new Title("Stage 1: Target 30");
     
     public MyWorld()
     {    

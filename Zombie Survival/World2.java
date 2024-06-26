@@ -23,7 +23,7 @@ public class World2 extends World
         healthbar = new HealthBar();
         weapon = new Weapon(counter);
         superPower = new SuperPower();
-        title = new Title("Stage 2: Target 100");
+        title = new Title("Stage 2: Target 60");
         
         mainPlayer = new Player(weapon, superPower);
         
