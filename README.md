@@ -1,24 +1,29 @@
-# Game Mario
-Proyek ini merupakan tugas yang diberikan sebagai bagian dari mata kuliah Grafika Komputer. Tujuan dari proyek ini adalah untuk menerapkan konsep dan teknik yang telah dipelajari selama perkuliahan, serta untuk mengembangkan keterampilan praktis dalam Grafika Komputer.
+# Zombie Survival: Bertahan Hidup di Dunia yang Penuh Mayat Hidup
+Game ini dibuat sebagai proyek akhir mata kuliah Grafika Komputer, di mana kami menerapkan konsep dan teknik yang telah dipelajari untuk menciptakan pengalaman bermain yang seru dan menantang.
 
 ## Persyaratan
 - Greenfoot
 
 ## Fitur
-- Kontrol Karakter
-    - Berlari.
-    - Lompat.
-    - Jalan ke kiri.
-    - Jalan ke kanan.
-    - Terjatuh.
-- Rintangan.
-- Poin Kehidupan (Life Point)
+- Kontrol Karakter:
+    - Putar karakter mengikuti arah mouse.
+    - Pergerakan karakter dengan tombol A, W, S, dan D.
+- Animasi Zombie Ketika berjalan
+- Health Bar
+- Super Power
+- Score
+- Shooting (ketika mouse klik kiri)
+- Pause
+- Waktu
+- Peningkatan senjata
+- Multiple level (1-3)
+- Sound
 
 ## Instalasi
 1. Buka terminal atau command prompt di komputer Anda.
 2. Jalankan perintah berikut untuk meng-clone repository
     ```
-    git clone https://github.com/DeoFaradyS/Mario.git
+    git clone https://github.com/DeoFaradyS/UAS-GRAFKOM.git
     ```
 
 ## Penggunaan
@@ -29,3 +34,4 @@ Proyek ini merupakan tugas yang diberikan sebagai bagian dari mata kuliah Grafik
 ## Kredit
 - Deo Farady Santoso - 12012200447 - Rekayasa Perangkat Lunak
 - Awan Dhani Wahono - 1201220443 - Rekayasa Perangkat Lunak
+- Fahmi Riskianto - 120 - Rekayasa Perangkat lunak
