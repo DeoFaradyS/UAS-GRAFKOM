@@ -23,7 +23,7 @@ Game ini dibuat sebagai proyek akhir mata kuliah Grafika Komputer, di mana kami 
 1. Buka terminal atau command prompt di komputer Anda.
 2. Jalankan perintah berikut untuk meng-clone repository
     ```
-    git clone https://github.com/DeoFaradyS/Mario.git
+    git clone https://github.com/DeoFaradyS/UAS-GRAFKOM.git
     ```
 
 ## Penggunaan
